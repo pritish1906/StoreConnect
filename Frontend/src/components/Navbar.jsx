@@ -48,7 +48,7 @@ const Center = styled.div`
 `;
 
 const Logo = styled.h1`
-  font-weight: bold;
+  font-weight: 400;
   ${mobile({ fontSize: "24px" })}
 `;
 const Right = styled.div`
@@ -78,7 +78,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>LAMA.</Logo>
+          <Logo>WonderMart</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>

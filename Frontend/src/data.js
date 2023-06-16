@@ -1,10 +1,10 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
+      img: "https://img2.ogaanindia.com/pub/media/catalog/product/cache/8e2c2a9d4851ee802ebff3c1680adbd5/1/_/1_69985.jpg",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "f5fafd",
+      bg: "white",
     },
     {
       id: 2,

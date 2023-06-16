@@ -20,5 +20,5 @@ const Categories = () => {
     </Container>
   );
 };
-
+ 
 export default Categories;
