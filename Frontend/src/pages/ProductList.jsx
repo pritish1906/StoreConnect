@@ -62,7 +62,7 @@ const ProductList = () => {
     <Container>
       <Navbar />
       <Announcement />
-      <Title>Dresses</Title>
+      <Title>{cat}</Title>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>
@@ -93,7 +93,7 @@ const ProductList = () => {
           <Select onChange={(event) => setSort(event.target.value)}>
             <Option value = "newest" selected>Newest</Option>
             <Option value = "asc">Price (asc)</Option>
-            <Option value = "dsc">Price (desc)</Option>
+            <Option value = "desc">Price (desc)</Option>
           </Select>
         </Filter>
       </FilterContainer>

@@ -20,7 +20,8 @@ mongoose.connect(process.env.MONGO_URL)
 .catch((err) => {
     console.log(err)
 })
-
+const cors = require('cors');
+app.use(cors());
 app.use(express.json());
 
 app.use("/api/auth", authRoute);
